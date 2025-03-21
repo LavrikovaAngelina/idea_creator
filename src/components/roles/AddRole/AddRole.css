@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.role-input{
+    font-family: "Inter", serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    position: relative;
+    width: 350px;
+    height: 48px;
+    cursor: pointer !important;
+    background-color: #f2f4f7 !important;
+    margin-bottom: 5px;
+    margin-top: none;
+    border-color: #2B2F33 !important;
+    box-shadow: none !important;
+}
+
+.role-input:hover{
+    border-color: #2762F2 !important;
+}
+
+.role-input:focus{
+    border-color: #2B2F33 !important;
+}
+
+.role-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left !important;
+    background-color: transparent;
+    border-radius: 10px;
+    width: 100%;
+    background-color: #FFFFFF !important;
+}
+
+.role-form-container{
+    width: 800px !important;
+    background-color: #FFFFFF !important;
+    padding-bottom: 0px;
+}
+
+.role-form-container h2 {
+    font-family: "Inter", serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38.4px;
+    letter-spacing: -0.800000011920929px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 30px;
+    margin-top: 0px;
+}
+
+.role-form button {
+    width: 350px;
+    height: 48px;
+    padding: 15px;
+    background-color: #2762f2;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: "Inter", serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.94px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.role-form-container button{
+    width: 350px;
+    height: 48px;
+    padding: 15px;
+    background-color: #2762f2;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: "Inter", serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.94px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.tab-button{
+    width: 130px !important;
+    height: 30px !important;
+    background-color: #f2f4f7 !important;
+    color: black !important;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: "Inter", serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.94px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    border-color: #2B2F33 !important;
+}
+
+.tab-button1{
+    width: 350px !important;
+    height: 30px !important;
+    background-color: #f2f4f7 !important;
+    color: black !important;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: "Inter", serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.94px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    border-color: #2B2F33 !important;
+}
+
+.upload-button{
+    width: 150px !important;
+    padding: 15px;
+    background-color: #2762f2;
+    margin-bottom: 24px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: "Inter", serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.94px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}

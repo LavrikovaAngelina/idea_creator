@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+p, h6 {
+    margin: 0;
+}
+
+.ant-table-thead > tr > th.ant-table-cell {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.ant-table-tbody > tr > td.ant-table-cell {
+    color: #2B2F33;
+    font-size: 14px;
+    font-family: "Inter", serif;
+    font-weight: 500;
+}
+
+.ant-tag.slots,
+.ant-tag.status {
+    color: #2B2F33;
+    font-size: 14px;
+    font-family: "Inter", serif;
+    font-weight: 500;
+    border-radius: 10px;
+    padding: 4px 10px;
+}
+
+.projects-label {
+    font-size: 12px;
+    font-weight: 300;
+    font-family: "Inter", serif;
+    color: #707A8A;
+}
+
+h6 {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Inter", serif;
+    color: #2B2F33;
+}
+
+
+.ant-table-footer {
+    text-align: center;
+    font-family: "Inter", serif;
+    font-weight: 500;
+}
+
+.ant-table-footer > a{
+    color: #2762F2;
+}
+
+.ant-table-footer > a:hover{
+    color: #6d93f4;
+}

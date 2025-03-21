@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.sign-in-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left !important;
+    background-color: transparent;
+    width: 400px;
+    height: 328px;
+}
+
+.sign-in-container{
+    display: flex;
+    flex-direction: row;
+    background-color: #f2f4f7;
+}
+
+.image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f9fc;
+}
+
+.sign-in-form-button {
+    width: 190px;
+    height: 48px;
+    background-color: #2762f2;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: "Inter", serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.94px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.sign-in-form-button-outlined {
+    border-color: #2762F2;
+    background: #f7f9fc;
+    color: #2762F2;
+    border: 1px solid #2762F2;
+}
+
+.sign-in-form-button-outlined:hover{
+    border-color: #2762F2 !important;
+    color: #2762F2 !important;
+    background: #f7f9fc !important;
+}
+
+.sign-in-checkbox{
+    font-family: "Inter", serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.94px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    align-items:center;
+    margin-bottom:15px;
+    height:24px;
+}
+
+@media (max-width: 1100px){
+    .image-container{
+        display: none;
+        z-index: -1;
+    }
+    .sign-in-form h2{
+        text-align: center !important;
+    }
+}
+
+@media (max-width: 420px){
+    .sign-in-form{
+        width: 330px !important;
+        height: 387px !important;
+    }
+    .sign-in-form button{
+        width: 330px !important;
+    }
+    .sign-in-input{
+        width: 330px !important;
+    }
+    .sign-in-form-button-outlined{
+        margin-top: 15px !important;
+    }
+    .sign-in-form h2{
+        font-size: 28px !important;
+    }
+}
+
+.sign-in-checkbox .ant-checkbox-inner{
+    width: 24px;
+    height: 24px;
+    border-radius: 6px; 
+}
+
+.sign-in-checkbox .ant-checkbox-inner::after {
+    height: 14px;
+    width: 6px;
+    align-self: center;
+    vertical-align: middle;
+}
+
+.sign-in-input{
+    font-family: "Inter", serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    cursor: pointer;
+    width: 400px;
+    height: 48px !important;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: #f2f4f7;
+    box-shadow: none !important;
+}
+
+.sign-in-input:hover{
+    border-color: #2762F2 !important;
+}
+
+.sign-in-input:focus{
+    border-color: #2B2F33 !important;
+}
+
+.sign-in-form h2 {
+    margin-bottom: 30px;
+    margin-top: 0px;
+    font-family: "Inter", serif;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: -0.800000011920929px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}

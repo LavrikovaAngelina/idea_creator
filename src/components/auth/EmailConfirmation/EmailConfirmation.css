@@ -1,0 +1,78 @@
+.email-confirmation-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #f2f4f7;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f9fc;
+}
+
+.confirmation-message-container-large {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left !important;
+    background-color: transparent;
+    width: 439px;
+}
+
+.email-confirmation-container h2 {
+    margin-bottom: 30px;
+    margin-top: 0px;
+    font-family: "Inter", serif;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: -0.800000011920929px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.email-confirmation-container p {
+    font-family: "Inter", serif;
+    font-size: 14px;
+    line-height: 16.94px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 0px;
+}
+
+@media (max-width: 1100px) {
+    .image-container {
+        display: none;
+        z-index: -1;
+    }
+
+    .email-confirmation-container h2 {
+        text-align: center !important;
+    }
+
+    .email-confirmation-container p {
+        text-align: center !important;
+    }
+}
+
+@media (max-width: 460px) {
+    .message-container {
+        width: 330px !important;
+    }
+
+    .email-confirmation-container h2 {
+        width: 330px !important;
+    }
+
+    .email-confirmation-container p {
+        width: 330px !important;
+    }
+
+    .confirmation-message-container-large {
+        width: 330px !important;
+    }
+}

@@ -1,0 +1,23 @@
+.projects-container > h1 {
+    font-size: 32px;
+    font-weight: 600;
+    font-family: "Inter", serif;
+    color: #1D2939;
+}
+
+.projects-container  {
+    padding: 0px 16px 16px 16px;
+}
+
+.projects-container > a{
+    color: #2762F2;
+    background-color: white;
+    display: block;
+    border-radius: 10px;
+    padding: 16px;
+    text-align: center;
+}
+
+.projects-container > a:hover{
+    color: #6d93f4;
+}

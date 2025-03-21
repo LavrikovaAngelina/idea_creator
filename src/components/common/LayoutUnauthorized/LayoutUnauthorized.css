@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.header {
+    background-color: #FFFFFF;
+    padding: 0px 20px;
+    height: 60px;
+    z-index: 1;
+}
+
+.header-button{
+    padding:16px 10px;
+    border-radius: 10px;
+    color: #707A8A !important;
+    font-family: "Inter", serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.94px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.header-button:hover{
+    background: #F4F7FE !important;
+}
+
+
+.header-column-element::after {
+    border-bottom-color: transparent !important;
+}
+
+.header-column-element span {
+    vertical-align: middle;
+}
+
+.header-column{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.divider{
+    margin: 0px !important;
+    border-color: #DFE3E7;
+}
+
+.content{
+    background-color: #f2f4f7;
+}
+
+.footer {
+    background-color: #F2F4F7;
+    color: #2B2F33;
+    padding: 21px 20px;
+    z-index: 1;
+}
+
+.logo-and-contacts{
+    text-align: left;
+}
+
+@media (max-width: 768px){
+    .logo-and-contacts{
+        text-align: center;
+    }
+
+    .footer-column-copyright{
+        text-align: center !important;
+    }
+}
+
+.footer-column{
+    text-align: left;
+}
+
+.footer-column-copyright{
+    text-align: left;
+}
+
+@media (max-width: 575px){
+    .footer-column{
+        text-align: center !important;
+    }
+    .footer-column h4{
+        text-align: center !important;
+    }
+}
+
+.footer-column a {
+    font-family: "Inter", serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #707A8A;
+}
+
+.footer-column h4 {
+    font-family: "Inter", serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.94px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #2B2F33;
+}
+

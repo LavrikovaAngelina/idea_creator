@@ -1,0 +1,32 @@
+p {
+    margin: 0;
+}
+
+.profiles-container > h1 {
+    font-size: 32px;
+    font-weight: 600;
+    font-family: "Inter", serif;
+    color: #1D2939;
+}
+
+.profiles-container  {
+    padding: 0px 16px;
+}
+
+.ant-table-thead > tr > th.ant-table-cell {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.ant-table-footer {
+    text-align: center;
+    font-weight: 500;
+}
+
+.ant-table-footer > a{
+    color: #2762F2;
+}
+
+.ant-table-footer > a:hover{
+    color: #6d93f4;
+}

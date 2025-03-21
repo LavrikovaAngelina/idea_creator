@@ -1,0 +1,28 @@
+name: Deploy application to cloud
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Build the Docker image
+      run: docker build . --file Dockerfile --tag lk-frontend
+    - name: Authorize in ya.cloud
+      env:
+        DOCKER_REGISTRY_PASSWORD: ${{ secrets.DOCKER_REGISTRY_PASSWORD }}
+      run: docker login -u oauth -p "$DOCKER_REGISTRY_PASSWORD" cr.yandex
+    - name: Publish to ya.cloud
+      env:
+        DOCKER_REGISTRY_NAMESPACE: ${{ vars.DOCKER_REGISTRY_NAMESPACE }}
+        DOCKER_REGISTRY_URL: ${{ vars.DOCKER_REGISTRY_URL }}
+      run: >-
+        docker tag lk-frontend $DOCKER_REGISTRY_URL/$DOCKER_REGISTRY_NAMESPACE/lk-frontend ;
+        docker push $DOCKER_REGISTRY_URL/$DOCKER_REGISTRY_NAMESPACE/lk-frontend
+
